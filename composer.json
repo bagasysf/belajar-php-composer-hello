@@ -1,0 +1,19 @@
+{
+    "name": "bagas/belajar-composer-hello",
+    "description": "Belajar Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Babang\\": "./src"
+        }
+    },
+    "authors": [
+        {
+            "name": "bagasysf",
+            "email": "bagasysf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
